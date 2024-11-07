@@ -26,7 +26,7 @@ public class PruebaAleatorios {
         System.out.println("Introduzca la altura de la tableta: ");
         int altura = sc.nextInt();
         String[][] tableta = new String[altura][anchura];
-        
+
         for (int i = 0; i < tableta.length; i++) {
             for (int j = 0; j < tableta[i].length; j++) {
                 tableta[i][j] = "*";
